@@ -1,0 +1,32 @@
+1) Dans le dossier Informations vous avez les fichiers suivant : 
+
+-description-Attribut-Codification.txt : il decrit les attributs du dataset et son encodage.
+-results.csv : un tableau ou on a sauvegardé les multiples structures de modeles lors de l'entrainement et réglage des hyper-parametres avec des statistiques du modele.
+-testprediction.csv : juste un fichier qu'on sauvegardé après avoir fait une prediction du modele choisit pour pouvoir comparer entre target et output de la prediction.
+- Dossier screenshot qui contient : 
+	- le test du script de prediction.
+	- la forme de l'interface de l'application.
+	- Graphe de regression et Performance du modele choisit ( 4 couches de 50 neuronnes et 300 epochs avec fonction d'action = 'relu' et fonction d'optimisation = 'adam' ).
+
+
+2) Dans le dossier dataset + scripts + model qui contient:
+
+** le dataset original + dataset codifié.
+
+** 3 scripts : 
+
+-all-script.py : le script pour faire l'entrainement et le reglage des hyper-parametres, pour plus de détails le script a été commenté.
+-simple-script.py : un script qui entraine un seul modele, on l'a utilisé pour entrainer la configuration choisie durant l'entrainement
+mais aussi pour sauvegarder le modele en plusieurs fichiers ( model.h5 , model_config.json,model_weights.h5).
+-test-script.py : script pour tester la prediction du modele , il importe le modele et le dataset , il divise le dataset en random et prend la partie de test et la teste sur la model et affiche la prediction.
+(voir les screenshots )
+
+3) Dans le dossier Application : 
+
+- L'application est sous forme de page web ( home.html ) qui contient l'interface principale.
+- Flask : un framework python pour deployer une application web pour importer le modele et l'utiliser.
+- Boostrap : un framework css pour metre un peu en forme la page.
+
+
+
+Merci.	
