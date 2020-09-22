@@ -12,11 +12,11 @@
 ### Model's Results :
 
 
-![App View of the model](Informations/ScreenShots/Capture1.png)
+![App View of the model](Informations/ScreenShots/Capture1.PNG)
 
 ### Predictions :
 
-![App View of the model](Informations/ScreenShots/test-prediction.png)
+![App View of the model](Informations/ScreenShots/test-prediction.PNG)
 
 
 ### Preview of the app : 
