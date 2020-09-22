@@ -1,7 +1,23 @@
 
-Project of classification prediction on students notes dataset
+# Project of classification prediction on students notes
 
-the project is based on Keras framework to train the model.
+## Specifications :
 
-The application is based on Flask/Python to test the model.
+- The project is based on Keras framework to train the model.
 
+- The application is based on Flask/Python to test the model.
+- The dataset contains students notes on portugese exams and student's situations.
+
+
+### Model's Results :
+
+
+![App View of the model](Informations/ScreenShots/Capture1.png)
+
+### Predictions :
+
+![App View of the model](Informations/ScreenShots/test-prediction.png)
+
+
+### Preview of the app : 
+![App View of the model](Informations/ScreenShots/screen-APP.png)
